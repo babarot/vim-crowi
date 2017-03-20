@@ -6,7 +6,7 @@ let g:crowi#access_token = get(g:, 'crowi#access_token', '')
 let g:crowi#filetypes = get(g:, 'crowi#filetypes', [])
 let g:crowi#open_page = get(g:, 'crowi#open_page', true)
 let g:crowi#default_create_path = get(g:, 'crowi#default_create_path',
-            \ '/user/'.expand('$USER').'/メモ/'.strftime("%Y/%m/%d", localtime())
+            \ '/user/'.expand('$USER').'/Memo/'.strftime("%Y/%m/%d", localtime())
             \ )
 let g:crowi#browser_command = get(g:, 'crowi#browser_command', '')
 

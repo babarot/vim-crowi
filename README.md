@@ -24,7 +24,7 @@ let g:crowi#api_url = "http://your.crowi.wiki"           " Change yours
 let g:crowi#access_token = "abcdefghijklmnopqrstuvwxyz=" " Change yours
 let g:crowi#filetypes = ['markdown']       " Limit file types that can be posted
 let g:crowi#open_page = true               " If true, open the page after posting
-" Defaults to expand('/user/$USER/メモ/'.strftime("%Y/%m/%d", localtime()))
+" Defaults to expand('/user/$USER/Memo/'.strftime("%Y/%m/%d", localtime()))
 let g:crowi#default_create_path = '/user/b4b4r07/memo'
 let g:crowi#browser_command = 'open'       " In case of macOS
 ```
